@@ -11,8 +11,19 @@
            max-width: 100%;
            vertical-align: top;
        }
+       img#resp {
+           display: none;
+       }
+
+       @media screen and (max-width: 768px) {
+        img#resp{
+            display: block;
+        }
+       }
+
     </style>
     <body>
+        <img src="invie.jpg" alt="hola" id="resp">
         <img src="header.jpg" alt="header">
         <img src="hero.jpg" alt="hola">
         <img src="acustica.jpg" alt="hola">
